@@ -1,0 +1,12 @@
+.menuvisible {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .desktop {
+        display: none;
+    }
+    .menuvisible {
+        display: block;
+    }
+}

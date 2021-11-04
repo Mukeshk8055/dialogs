@@ -1,0 +1,14 @@
+@media screen and (max-width:720px) {
+    .searchBar{
+        display:none; 
+    }
+
+    .wishlist{
+        display:none;
+    }
+
+    .shopping-cart{
+        display:none;
+    }
+   
+}

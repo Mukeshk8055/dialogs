@@ -1,0 +1,271 @@
+.App{
+    background-color:#FFFFFF;
+    
+}
+body{
+    
+        -webkit-font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+        font-size: 62.5%;
+    
+}
+.checkout-out-solutions{
+    float:left;
+    width:25%;
+    padding:20px;
+}
+ 
+.Training:after{
+    content:"";
+    display:flex;
+    flex-wrap: wrap;
+ 
+}
+ 
+/* @media screen and (max-width:992px) {
+    .checkout-out-solutions{
+       width:50%;
+    }
+   
+}
+ 
+@media screen and (max-width:600px) {
+    .checkout-out-solutions{
+        width:100%;
+    }
+} */
+@media screen and (max-width:600px){
+    /* .Customer-review-box{
+        width: auto;
+        height: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+ 
+    }
+    .Customer-review-typography{
+        width:"100vw";
+    } */
+}
+
+
+/* .swiper-button-next { color: white;
+    border:2px solid #888C90;
+    border-radius: 100%;
+    width:45px;
+    height:45px;
+    background-color:#1C1D1F;
+    margin-right: -7px;
+    font-weight: bold;
+    margin-top: -160px;
+   
+    
+} */
+
+.customer-review-typography{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 20px ;
+
+
+}
+
+/* .swiper-button-prev { color: white;
+    border:2px solid #888C90;
+    border-radius: 100%;
+    width:70px;
+    height:70px;
+    background-color:#1C1D1F;
+    margin-left: -4px;
+    font-weight: bold;
+    margin-top: -160px;
+ } */
+
+/* .swiper-button-next:after, .swiper-button-prev:after {
+    font-size:15px;
+    padding:10px
+}
+  */
+
+
+
+
+/* .arrowUpHidden{
+    display: none;
+} */
+
+/* 
+@media  screen and (max-width:720){
+
+    .customer-review-inner-card{
+        margin-top: 0px !important;
+    }
+  
+  
+    .swiper-button-next { color: white;
+        border:2px solid #888C90;
+        border-radius: 100%;
+        width:45px;
+        height:45px;
+        background-color:#1C1D1F;
+        margin-right: -7px;
+        font-weight: bold;
+        margin-top: -160px;
+       
+        
+    }
+    
+}
+ */
+
+
+/* @media  screen and (max-width:720){
+    .card-carousel{
+        width:280px !important;
+        padding: 20% !important;
+    }
+    .card-carousel-image{
+        width:280px !important;
+    }
+    
+} */
+
+
+
+/* @media (max-width: 1080px) {
+    .hoverCard{
+        display: none;
+      
+    }
+    .search-header{
+        visibility: hidden;
+    }
+    
+  
+    .training{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .arrowLeft{
+        display: none;
+    }
+    .arrowRight{
+        display: none;
+    }
+    .arrow{
+        display: none;
+    }
+
+    .arrowUpHidden{
+        display:block;
+    }
+
+    .arrowUp{
+        display: visible;
+        color:black;
+        height: 100px;
+        width: 50px;
+        padding: 1px;
+        margin-top:-101px;
+        margin-left: 120px;
+        color: #E0E0E0;
+        position: absolute
+
+    }
+    
+  } */
+
+  
+
+  *{
+    font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    
+  }
+
+  .title{
+    font-family: SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol
+
+  }
+
+
+ 
+.hoveringCard1:hover{
+    visibility: hidden;
+    
+    
+}
+
+.hoverMe1:hover+.hoveringCard1{
+    opacity: 1;
+     z-index: -1;
+    visibility: visible;
+    
+   
+}
+
+.hoveringCard2:hover{
+    visibility: hidden;
+   
+    
+}
+
+.hoverMe2:hover+.hoveringCard2{
+    opacity: 1;
+     z-index: -1;
+    visibility: visible;
+    transition:  1s;
+}
+  
+
+
+.hoveringCard3:hover{
+    visibility: hidden;
+   
+    
+}
+
+.hoverMe3:hover+.hoveringCard3{
+    opacity: 1;
+     z-index: -1;
+    visibility: visible;
+    transition:  1s;
+}
+
+
+.visibleCard{
+    visibility: hidden;
+}
+
+.cardHover:hover{
+    visibility:visible;
+} 
+
+
+
+.Visible{
+    visibility: hidden;
+}
+
+.Findme:hover+.Visible{
+    opacity: 1;
+    visibility:visible;
+    
+}     
+
+
+.showMe{
+    visibility:hidden;
+}
+
+.hideMe:hover+.showMe{
+    visibility:visible;
+    opacity:0;
+    z-index: auto;
+    
+}

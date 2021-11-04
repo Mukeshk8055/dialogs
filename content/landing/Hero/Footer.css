@@ -1,0 +1,83 @@
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:10%;
+
+}
+
+.footer-eniston-contain{ 
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+.footer-eniston-logo-image{
+    width: 180px;
+    height:140px;
+}
+
+.einston-logo-container{ 
+ display: flex;
+  align-items: center;
+   flex-wrap: wrap 
+}
+.footer-contain-typography{
+    /* display: flex; */
+    font-weight: bold;
+    font-size:14px;
+
+}
+
+.footer-container-list{ 
+
+ display: flex;
+ justify-content:space-between;
+ width: 60%;
+ margin-top: 80px;
+ margin-right: 10%;
+ 
+
+    
+}
+.product-container{
+    margin-right: 50px;
+
+}
+.company-container{
+    margin-right: 50px;
+
+}
+
+@media (max-width:720px) {
+  .footer-container{
+   display: flex;
+   flex-direction: column;
+  }
+
+  .footer-eniston-logo-image{
+    width: 80px;
+    height: 70px;
+    margin-right:20px ;
+    margin-left: 0px;
+
+  }
+
+   .footer-eniston-contain{
+    display:flex;
+    flex-wrap: wrap;
+   }
+   .einston-logo-container{ 
+     display: flex;
+     align-items: center;
+   }
+
+   .footer-container-list{ 
+       padding-left:10%;
+       display:flex;
+       flex-wrap: wrap;
+       height:450px;
+       margin-bottom: 20%;
+       margin-top: 25px;
+   }
+}

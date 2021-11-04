@@ -1,0 +1,87 @@
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 100px */
+}
+
+.card-container{
+width: 95vw;
+height: auto;
+ padding-top: 10px;
+background-color: white;
+/* margin-top: 50px; */
+margin-left: 2.5vw;
+}
+
+.box-container{
+        width: "250px";
+        line-height: 1.2;
+        letter-spacing: -.04rem;
+        font-size:2.4rem;
+        color: #141414;
+        margin-left: 20px;
+        font-weight:bold;
+        /* margin-top:15px; */
+        z-index: -99;
+}
+
+
+
+.box-all-containent{ 
+    width: 235px;
+    height: auto;
+    margin-left: 19px;
+    margin-top: 20px;
+    margin-bottom:90px;
+}
+
+.box-image{
+    width: 235px;
+    height: 150px;
+}
+
+.watch-icon{
+margin-left: 65px;
+font-size: 20px 
+}
+
+.title{
+ margin-top: 15px;
+font-size: 16px;
+ color: #1C1D1F;
+  font-weight: bold;
+   line-height: 20px;
+}
+
+.tag{
+ background-color: #ECEB98;
+  padding-left: 3px;
+   padding-right: 3px;
+    padding-top: 2px;
+
+     padding-bottom: 2px;
+     margin-top: 10px;
+}
+
+
+
+
+@media(max-width:720px){
+    .box-all-containent{
+       margin-left: 11%;
+       width:270px;
+
+    }
+    .box-image{
+        width: 270px;
+        height: 150px;
+    }
+
+    .card-container{
+        margin-top: 100px;
+        height:75vh;
+    }
+
+   
+
+}

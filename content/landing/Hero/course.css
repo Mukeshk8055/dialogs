@@ -1,0 +1,134 @@
+.course-container{
+    width: 95vw;
+    height:auto;
+    /* padding-top: 50px; */
+    background-color: white;
+    /* margin-top: 50px; */
+    margin-left:2.5vw;
+    /* margin-bottom:200px; */
+    /* padding-bottom:20px; */
+   
+   }
+   
+   .course-card-title{
+           width: 250px;
+           font-family:SuisseWorks,Georgia,Times,times new roman,serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+           /* line-height:1.2; */
+           /* letter-spacing: -.04rem; */
+           font-size:2.2rem;
+           /* color: #141414; */
+           margin-left: 30px;
+           font-weight:bold;
+           /* margin-top:0px; */
+           /* z-index: -99; */
+   
+   }
+   
+   .swiper-button-next { color:#e9fcfc;
+       border:2px solid #888C90;
+       border-radius: 100%;
+       width:55px;
+       height:55px;
+       background-color:#1C1D1F;
+       margin-right: -7px;
+       font-weight: bold;
+       margin-top: -150px;
+      
+       
+   }
+   
+   .swiper-button-prev { 
+       color: #e9fcfc;
+       border:2px solid #888C90;
+       border-radius: 100%;
+       width:55px;
+       height:55px;
+       background-color:#1C1D1F;
+       margin-left: -4px;
+       font-weight: bold;
+       margin-top: -150px;
+    }
+   
+   .course-card-subtitle{ 
+   
+        /* border: 2px solid; */
+        margin-left:30%;
+   
+   }
+   
+   .card-only-box{ 
+       width: 235px;
+       height: auto;
+       /* border:2px solid; */
+       margin-top: 10px;
+       z-index: 2;
+       margin-left: 22px;
+       padding-bottom:5%;
+       margin-bottom:80px;
+   }
+   
+   .couse-image{
+       width: 235px;
+       height: 150px;
+   }
+   
+   .course-overview-conatin{ 
+     margin-right: 10px;
+   }
+   
+   .course-contain-title{ 
+   margin-top: 10px;
+   font-size: 16px;
+   
+   font-weight: bold !important;
+   color: #1C1D1F;
+   /* font-weight: bold; */
+   line-height: 20px;
+   
+   }
+   
+   .course-trainer{
+    margin-top: 5px;
+   font-size: 12px;
+    color: #717171;
+   }
+   
+   .rating-container{
+       display: flex;
+   }
+   
+   .rating-container-number{
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      color: #B4690E;
+      font-weight: bold;
+   }
+   
+   .rating-container-star{
+       margin-left: 5px
+   }
+   
+   
+   
+   @media (max-width:720px) {
+       .course-all-contain{
+           margin-left: 9%;
+       }
+       .couse-image{
+           width: 240px;
+           height: 150px;
+       }
+       .course-card-subtitle{ 
+           /* border: 2px solid; */
+           margin-left:50%;
+      
+      }
+   
+      .hover-card{
+          display:none;
+      }
+   
+       
+       
+   }
